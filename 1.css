@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+.main_body{
+    display: flex;
+    height: 100vh;
+    //sbackground-color: cornflowerblue;
+}
+
+.navbar{
+    display: flex;
+    height: 65px;
+    background: rgb(197, 14, 14);
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar_sec{
+    display: flex;
+    width: 8%;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+
+.navbar_sec_1{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+}
+
+.left{
+    display: flex;
+    flex: 1.5;
+    background: rgba(38, 103, 167, 0.589);
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    flex:6;
+    background: whitesmoke;
+    margin-top: 140px;
+}
+
+.input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height:200px;
+    background: rgba(0, 128, 128, 0.747);
+    border-radius: 10px;
+}
+
+input[type="text"],[type="password"]
+{
+    font-size: 16px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    margin: 20px;
+}
+
+.click{
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:white;
+    background: rgb(224, 49, 49);
+    border-radius: 10px;
+}
+
+.info_area{
+    background: rgba(50, 205, 50, 0.432);
+    margin-top: 20px;
+    width: 90%;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+.right{
+    display: flex;
+    flex:1.5;
+    background: rgba(38, 103, 167, 0.589);
+
+}
